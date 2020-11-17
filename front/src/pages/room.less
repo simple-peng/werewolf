@@ -1,0 +1,111 @@
+body {
+  margin:0px;
+}
+
+.frame {
+  width:100%;
+  height:950px;
+  background-color:.808080;
+  margin:0px;
+}
+
+.main {
+  width:100%;
+  height:70%;
+  background-color:#9999ff;
+}
+.main:after{
+  content:'';
+  display:block;
+  clear:both
+}
+
+.speakTxt {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1001;
+  width:60%;
+  text-align:center;
+  .inTxt {
+    width:100%;
+    height:100px;
+  }
+}
+
+.site {
+  float:left;
+  position: relative;
+  width:15%;
+  height:15%;
+  margin:10px 160px;
+  border:1px solid .808080;
+  background-color:Highlight;
+  font-size:50px;
+  .identity0 {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 24px;
+  }
+  .triLeft{
+    position: absolute;
+    top: -8px;
+    left: 80px;
+    width: 0px;
+    height: 0px;
+    border-top: 20px solid transparent;
+    border-right: 30px solid #e6f7ff;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid transparent;
+    margin:40px;
+  }
+  .message{
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    width: 250px;
+    height: 100px;
+    background-color: #fafafa;
+    margin: 0px;
+    font-size: 12px;
+  }
+}
+.site:after{
+  content: '';
+  display:block;
+  clear:both;
+}
+
+
+.menu {
+  width:100%;
+  height:30%;
+  background-color:gold;
+}
+
+.leave {
+  width:100px;
+  height:70px;
+  position:relative;
+  top:50px;
+  left:140px;
+}
+
+.start {
+  width:100px;
+  height:70px;
+  position:relative;
+  left:140px;
+  bottom:50px;
+}
+
+
+
+.dialog{
+  display: flex;
+  justify-content:center;
+}
+
+

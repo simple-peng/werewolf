@@ -1,5 +1,5 @@
 {
-  "name": "Wolfman2",
+  "name": "Wolfman",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "cangsexiesheng@126.com",
   "license": "ISC",
   "dependencies": {
     "antd": "^4.7.0",
